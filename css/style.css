@@ -1,6 +1,148 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500&family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mukta&family=Roboto:wght@100&display=swap');
+
+body{
+    margin:0;
+}
+
+.menu {
+    display: flex;
+    background-color: black;
+    padding: 10px 0px 10px;
+    border-bottom: 3px solid yellow;
+    flex-wrap: wrap;
+
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+#nav1 a{
+    color: yellow;
+    font-family: 'Mukta', sans-serif;
+    margin-right: 590px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+
+
+#nav2 a{
+    color: white;
+    padding: 5px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.menu a:last-child{
+    margin-right: 30px;
+}
+
+#nav3 a{
+    color: white;
+    padding:5px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 14px;
+}
+    
+.tagline{
+    background-color: rgb(201, 197, 197);
+    text-align: center;
+    padding:1px;
+    font-family: 'Mukta', sans-serif;
+    font-style: italic;
+}
+
 .tagline span1{
     text-decoration: line-through;
 }
 .tagline span2{
     text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 2px;
+}
+
+.banner{
+    background-image: url("../img/image.jpg");
+    background-size: cover;
+    height:500px;
+    padding:1px;
+}
+
+.banner div{
+    background-color: rgba(255, 255, 255, 0.877);
+    float:right;
+    margin: 130px 20px 0px 0px;
+    padding: 10px 30px;
+    width:23%;
+    height:220px;
+    border-bottom: 2px solid rgb(194, 193, 193);
+}
+
+.banner h4{
+    font-family: Tahoma, sans-serif;
+}
+
+.banner p{
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+}
+
+.banner a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(243, 255, 73);
+    padding: 8px 90px;
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(238, 238, 35);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: #424141;
+}
+
+.container {
+    display: flex;
+    margin: 15px 10px 30px;
+}
+
+.container .box{
+    width:30%;
+    padding:0px 20px 10px;
+}
+
+.container .box:not(:last-child){
+    border-right-style: solid;
+    border-color: rgba(219, 218, 218, 0.664);
+}
+
+.container .box h4{
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 1px;
+
+}
+
+.container .box p{
+    font-family: 'Mukta', sans-serif;
+}
+
+.container .box a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    background-color: rgb(196, 193, 193);
+    padding: 5px 120px;
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(161, 160, 160);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    padding: 10px 8px;
 }
